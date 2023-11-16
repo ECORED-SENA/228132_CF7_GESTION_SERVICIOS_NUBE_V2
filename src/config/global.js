@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Gestión de los servicios en la nube',
+    descripcionCurso:
+      'Este componente formativo presenta aspectos generales y claves para la implementación del dominio de servicios tecnológicos, que corresponde con un plan de gestión. Todo ello integrando, entre otros, aspectos como: directorio de servicios tecnológicos y elementos para el intercambio de información.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
       },
     ],
   },
@@ -24,20 +29,30 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan de gestión de servicios de TI',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Gestión de la capacidad',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Gestión de la continuidad',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Gestión de la disponibilidad',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +60,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Acuerdo de nivel de servicios - ANS',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Acceso a servicios en la nube',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Mejor práctica: mesa de ayuda',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Planes de mantenimiento',
         desarrolloContenidos: true,
       },
     ],
@@ -103,31 +130,38 @@ export default {
   complementario: [
     {
       tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos.',
+      tipo: 'Documento guía',
+      descarga: '/downloads/Anexo1.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Capacidad',
+      significado:
+        'Propiedad de poder contener cierta cantidad de alguna cosa hasta un límite determinado.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Continuidad',
+      significado:
+        'En tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones se mantengan en funcionamiento continuo ante un evento no deseado.',
+    },
+    {
+      termino: 'Disponibilidad',
+      significado:
+        'En tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones están disponibles para quienes tienen derecho de acceso a ellos.',
+    },
+    {
+      termino: 'Servicio de TI',
+      significado:
+        'Conjunto de recursos tecnológicos disponibles para ser utilizados como apoyo operativo de las actividades de negocio dentro de una organización, que entregan valor para la misma, facilitando el cumplimiento de las actividades y objetivos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones 2019. G.ST.01 Guía del dominio de servicios tecnológicos.',
     },
   ],
   creditos: [
@@ -151,10 +185,46 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Pablo Cesar Pardo Ortiz',
+          cargo: 'Experto temático',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Hernando José Peña Hidalgo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'José Luis Bastidas Pérez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Joaquín Patiño Cerón',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Peter Emerson Pinchao Solís',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Henry Eduardo Bastidas Paruma',
+          cargo: 'Instructor',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Regional Santander -Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -162,13 +232,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -180,7 +250,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
