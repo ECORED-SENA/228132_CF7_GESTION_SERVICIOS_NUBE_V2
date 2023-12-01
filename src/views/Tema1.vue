@@ -21,15 +21,15 @@
                 .col-1
                   img(src="@/assets/curso/temas/2.svg")
                 .col-11
-                  p.mb-0 Para el diseño del plan de gestión de servicios de TI, es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos, del Ministerio de Tecnologías de la Información y las Comunicaciones, del 2014, documento que permite la adopción de los elementos del dominio de los servicios tecnológicos, para Colombia, en el marco de la arquitectura de TI, razón por la cual se tomará de manera literal para su comprensión e implementación.
+                  p.mb-0 Para el diseño del plan de gestión de servicios de TI, es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos del Ministerio de Tecnologías de la Información y las Comunicaciones (2014). Este documento permite la adopción de los elementos del dominio de los servicios tecnológicos para Colombia, en el marco de la arquitectura de TI. Por esta razón, se tomará de manera literal para su comprensión e implementación.
           .col-lg-10
             .bg3.p-3.text-center.text-white 
-              p.mb-0 Las actividades en cada una de las gestiones corresponden a las descritas en la siguiente imagen, que serán explicadas a continuación:
+              p.mb-0 Las actividades en cada una de las gestiones corresponden a las descritas en la siguiente imagen, las cuales serán serán explicadas a continuación:
 
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-5
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1. 
+          h5 Figura 1 
           span Actividades del plan de gestión de servicios TI
         img.img-a.img-t(src="@/assets/curso/temas/4.svg", alt="Esquema sencillo que enuncia las actividades propias del plan de gestión de los servicios TI.")
 
@@ -84,7 +84,7 @@
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2. 
+          h5 Figura 2
           span Gestión de capacidad
         img.img-a.img-t(src="@/assets/curso/temas/4.svg", alt="Esquema sencillo que enuncia las actividades propias del plan de gestión de los servicios TI.")    
 
@@ -186,7 +186,7 @@
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3. 
+          h5 Figura 3 
           span Gestión de la continuidad
         img.img-a.img-t(src="@/assets/curso/temas/21.svg", alt="Esquema sencillo que enuncia las actividades propias del plan de gestión de los servicios TI.")       
 
@@ -200,7 +200,7 @@
       .col-lg-7.my-3
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg8") 
           div(titulo="Determinar") Cuáles son los requisitos de disponibilidad reales del negocio.
-          div(titulo="Desarrollar") Un plan de disponibilidad donde se estimen las necesidades de disponibilidad futura, a corto plazo y mediano plazo. 
+          div(titulo="Desarrollar") Un plan de disponibilidad donde se estimen las necesidades de disponibilidad futura, a corto y mediano plazo. 
           div(titulo="Mantenimiento") Del servicio en operación y recuperación del mismo en caso de fallo.
           div(titulo="Realizar") Diagnósticos periódicos sobre la disponibilidad de los sistemas y servicios. 
           div(titulo="Evaluar") La capacidad de servicio de los proveedores internos y externos. 

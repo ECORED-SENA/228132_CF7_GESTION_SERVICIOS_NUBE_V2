@@ -35,7 +35,7 @@
                         h3.mb-1.text-white Guía del dominio de servicios tecnológicos
                         p.text-white Para la gestión del despliegue de servicios en la nube es importante que vaya al numeral 2.5 (Acceso a servicios en la nube, LI.ST.04.) de la Guía del dominio de servicios tecnológicos G.ST.01 del MinTIC, que puede acceder en el enlace.
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(href="https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf" target="_blank")
+                        a.boton.color-acento-botones.texto-blanco(href="https://www.cvc.gov.co/sites/default/files/2018-10/G.ST_.01%20Guia%20del%20dominio%20de%20servicios%20tecnologicos%20V1%202014-Dic-30.pdf" target="_blank")
                           span(style="color: #000 !important") Abrir enlace
                           i.fas.fa-link(style="color: #000 !important")                                 
 
@@ -44,7 +44,7 @@
     .row.justify-content-center
       .col-lg-11
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Tabla 1]. Prácticas para la creación de nuevas aplicaciones
+          p.mb-0 #[b Tabla 1] Prácticas para la creación de nuevas aplicaciones
         .tabla-a.color-acento-botones
           table
             thead
@@ -53,7 +53,7 @@
                 th Tácticas
             tbody
               tr
-                td Diseñar teniendo en cuenta el fallo de hardware y software
+                td Diseñar teniendo en cuenta el fallo de #[i hardware] y #[i software]
                 td
                   ul
                     li.mb-3
@@ -67,7 +67,7 @@
                       |  Permitir que el estado del sistema pueda volver a sincronizarse y volver a cargar mensajes de las colas.
                     li
                       i.fas.fa-plus(style="color: #2EC49F")
-                      |  Conservar imágenes virtuales preconfiguradas y pre optimizadas para admitir en la ejecución/arranque.
+                      |  Conservar imágenes virtuales preconfiguradas y preoptimizadas para admitir en la ejecución/arranque.
               tr(style="background-color: #E8E8E8")
                 td Desacoplar los componentes
                 td

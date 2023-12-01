@@ -15,7 +15,7 @@
               img(src="@/assets/curso/temas/27.png")
             .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
               .bg2.mb-4.p-3.mnl-22
-                p.mb-0 Las interrupciones del servicio pueden ser causadas además por labores de mantenimiento y/o actualización. Estas interrupciones programadas afectan la disponibilidad del servicio y por lo tanto deben ser planificadas para minimizar el impacto. Se deben aprovechar franjas horarias de inactividad para realizar las tareas que implican la degradación o interrupción del servicio.
+                p.mb-0 Las interrupciones del servicio pueden ser causadas además por labores de mantenimiento o actualización. Estas interrupciones programadas afectan la disponibilidad del servicio y por lo tanto deben ser planificadas para minimizar el impacto. Se deben aprovechar franjas horarias de inactividad para realizar las tareas que implican la degradación o interrupción del servicio.
               .row.align-items-center
                 .col-1.up
                   img(src="@/assets/curso/temas/26.svg")
@@ -25,7 +25,7 @@
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-7
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6. 
+          h5 Figura 7 
           span Actividades de Mantenimiento
         img.img-a.img-t(src="@/assets/curso/temas/29.svg", alt="Esquema gráfico que enuncia las actividades por ejecutar en el proceso de mantenimiento.")
 </template>

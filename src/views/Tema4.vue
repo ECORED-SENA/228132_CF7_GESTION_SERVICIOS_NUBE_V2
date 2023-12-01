@@ -16,7 +16,7 @@
                 .col-1
                   img(src="@/assets/curso/tema4/img2.svg")
                 .col-11
-                  p.mb-0 La mesa de servicio es el punto de contacto de toda la organización TI con clientes y usuarios, es por lo tanto imprescindible que:
+                  p.mb-0 La mesa de servicio es el punto de contacto de toda la organización TI con clientes y usuarios; por lo tanto, es imprescindible que:
               .row.justify-content-center.text-center(data-aos="fade-right")   
                 .col-lg-3.col-md-4.my-3
                   .bg5.p-3.h-100
@@ -37,11 +37,11 @@
             .col-lg-4
               figure.mb-4.mb-lg-0
                 img(src='@/assets/curso/tema4/img1.png' style="width: 450px").m-auto
-    p.my-5 En la siguiente imagen, se puede apreciar la estructura de la mesa que ofrece servicios virtuales, y la relación y dinámica que se ejerce entre sí.
+    p.my-5 En la siguiente imagen, se puede apreciar la estructura de la mesa que ofrece servicios virtuales, la relación y dinámica que se ejerce entre sí.
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 6]. Estructura mesa de servicios virtual
+          p.mb-0 #[b Figura 6] Estructura mesa de servicios virtual
         figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema4/img4.svg',alt="gráficamente, la estructura y funcionamiento de la mesa virtual de servicios.").m-auto
           
@@ -51,9 +51,9 @@
     .row.justify-content-center.align-items-center    
       .col-lg-7.my-3
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg8") 
-          div(titulo="Conocer") Todos los protocolos de interacción con el cliente: guiones, checklists, etc.
-          div(titulo="Disponer") Herramientas de software que les permitan llevar un registro de la interacción con los usuarios.
-          div(titulo="Saber") Cuándo se debe realizar un escalado a instancias superiores o entrar en discusiones sobre cumplimiento de los ANS o Acuerdos de Nivel de Servicio, también conocidos como SLA, por sus siglas en ingles Service Level Agreement.
+          div(titulo="Conocer") Todos los protocolos de interacción con el cliente: guiones, #[i checklists], etc.
+          div(titulo="Disponer") Herramientas de #[i software] que les permitan llevar un registro de la interacción con los usuarios.
+          div(titulo="Saber") Cuándo se debe realizar un escalado a instancias superiores o entrar en discusiones sobre cumplimiento de los ANS o Acuerdos de Nivel de Servicio, también conocidos como SLA, por sus siglas en ingles #[i Service Level Agreement].
           div(titulo="Tener") Rápido acceso a las bases de conocimiento para ofrecer un mejor servicio a los usuarios.
           div(titulo="Recibir") Formación sobre los productos y servicios de la empresa.
       .col-lg-5.my-3
@@ -71,7 +71,7 @@
         .bg11.p-3.h-100.brad
           img.img-t.mb-4(src="@/assets/curso/tema4/6.svg")
           h4 Distribuido 
-          p.mb-0 Es la estructura tradicional cuando se trata de empresas que ofrecen servicios en diferentes emplazamientos geográficos (ya sean ciudades, países o continentes).
+          p.mb-0 Es la estructura tradicional cuando se trata de empresas que ofrecen servicios en diferentes emplazamientos geográficos, ya sean ciudades, países o continentes.
       .col-lg-4.my-3
         .bg11.p-3.h-100.brad
           img.img-t.mb-4(src="@/assets/curso/tema4/7.svg")
