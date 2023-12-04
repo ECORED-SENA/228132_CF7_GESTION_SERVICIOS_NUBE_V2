@@ -24,7 +24,7 @@
                   p.mb-0 Para el diseño del plan de gestión de servicios de TI, es importante tener en cuenta las actividades descritas en la G.ST.01 Guía del dominio de servicios tecnológicos del Ministerio de Tecnologías de la Información y las Comunicaciones (2014). Este documento permite la adopción de los elementos del dominio de los servicios tecnológicos para Colombia, en el marco de la arquitectura de TI. Por esta razón, se tomará de manera literal para su comprensión e implementación.
           .col-lg-10
             .bg3.p-3.text-center.text-white 
-              p.mb-0 Las actividades en cada una de las gestiones corresponden a las descritas en la siguiente imagen, las cuales serán serán explicadas a continuación:
+              p.mb-0 Las actividades en cada una de las gestiones corresponden a las descritas en la siguiente imagen, las cuales serán explicadas a continuación:
 
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-5
