@@ -41,7 +41,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 6] Estructura mesa de servicios virtual
+          p.mb-0 #[b Figura 5] Estructura mesa de servicios virtual
         figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema4/img4.svg',alt="gráficamente, la estructura y funcionamiento de la mesa virtual de servicios.").m-auto
           

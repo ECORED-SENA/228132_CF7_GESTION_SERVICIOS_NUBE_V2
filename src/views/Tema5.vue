@@ -25,7 +25,7 @@
     .row.justify-content-center.align-items-center.my-5           
       .col-lg-7
         .titulo-sexto.color-acento-contenido
-          h5 Figura 7 
+          h5 Figura 6 
           span Actividades de Mantenimiento
         img.img-a.img-t(src="@/assets/curso/temas/29.svg", alt="Esquema gráfico que enuncia las actividades por ejecutar en el proceso de mantenimiento.")
 </template>

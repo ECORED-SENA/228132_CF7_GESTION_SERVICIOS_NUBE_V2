@@ -129,11 +129,12 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: '3. Acceso a servicios en la nube',
       referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos.',
       tipo: 'Documento guía',
-      descarga: '/downloads/Anexo1.pdf',
+      link:
+        'https://www.cvc.gov.co/sites/default/files/2018-10/G.ST_.01%20Guia%20del%20dominio%20de%20servicios%20tecnologicos%20V1%202014-Dic-30.pdf',
     },
   ],
   glosario: [
@@ -162,6 +163,8 @@ export default {
     {
       referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones 2019. G.ST.01 Guía del dominio de servicios tecnológicos.',
+      link:
+        'https://www.cvc.gov.co/sites/default/files/2018-10/G.ST_.01%20Guia%20del%20dominio%20de%20servicios%20tecnologicos%20V1%202014-Dic-30.pdf',
     },
   ],
   creditos: [

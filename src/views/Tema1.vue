@@ -86,7 +86,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 2
           span Gestión de capacidad
-        img.img-a.img-t(src="@/assets/curso/temas/4.svg", alt="Esquema sencillo que enuncia las actividades propias del plan de gestión de los servicios TI.")    
+        img.img-a.img-t(src="@/assets/curso/tema1/img8.svg", alt="Esquema gráfico que expone las actividades más significativas de la gestión de la capacidad.")    
 
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

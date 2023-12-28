@@ -23,7 +23,7 @@
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 5] Interacciones y funcionalidades gestión de niveles de servicio
+          p.mb-0 #[b Figura 4] Interacciones y funcionalidades gestión de niveles de servicio
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img2.svg', alt="Diagrama que explica las interacciones y funcionalidades de la gestión de los niveles de servicio." style="width: 800px").m-auto 
 
